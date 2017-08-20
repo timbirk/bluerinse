@@ -1,0 +1,11 @@
+
+package: github.com/timbirk/rinser
+import:
+- package: github.com/spf13/jwalterweatherman
+- package: github.com/spf13/viper
+- package: github.com/go-sql-driver/mysql
+- package: github.com/urfave/cli
+testImport:
+- package: github.com/stretchr/testify
+  subpackages:
+  - assert
