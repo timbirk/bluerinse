@@ -1,8 +1,8 @@
 export GO15VENDOREXPERIMENT=1
 
-exe = github.com/timbirk/rinser
+exe = github.com/timbirk/bluerinse
 pkgs = $(shell glide novendor)
-cmd = rinser
+cmd = bluerinse
 
 TRAVIS_TAG ?= "0.0.0"
 BUILD_DIR=build

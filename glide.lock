@@ -1,0 +1,16 @@
+hash: dbbed889dab1223a3bbd4182b5c826316afdf1ed2d1837b076aa6d1e728b736d
+updated: 2017-08-20T16:51:31.834309385+01:00
+imports:
+- name: github.com/go-sql-driver/mysql
+  version: 37b91d8876474f11b8e419f2fa65b15824ab9b9c
+- name: github.com/spf13/jwalterweatherman
+  version: 0efa5202c04663c757d84f90f5219c1250baf94f
+- name: github.com/spf13/viper
+  version: 25b30aa063fc18e48662b86996252eabdcf2f0c7
+- name: github.com/urfave/cli
+  version: f017f86fccc5a039a98f23311f34fdf78b014f78
+testImports:
+- name: github.com/stretchr/testify
+  version: 890a5c3458b43e6104ff5da8dfa139d013d77544
+  subpackages:
+  - assert

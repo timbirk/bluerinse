@@ -1,5 +1,5 @@
 
-package: github.com/timbirk/rinser
+package: github.com/timbirk/bluerinse
 import:
 - package: github.com/spf13/jwalterweatherman
 - package: github.com/spf13/viper
